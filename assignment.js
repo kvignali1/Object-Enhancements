@@ -46,9 +46,9 @@ const instructor = {
 	},
 };
 
-const d = createAnimal("dog", "bark", "Woooof!");
-// {species: "dog", bark: ƒ}
-d.bark(); //"Woooof!"
+// const d = createAnimal("dog", "bark", "Woooof!");
+// // {species: "dog", bark: ƒ}
+// d.bark(); //"Woooof!"
 
 function createAnimal(species, verb, noise) {
 	return {
